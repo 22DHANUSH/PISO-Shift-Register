@@ -63,9 +63,5 @@ This process continues until all 32 bits are transmitted.
 Once all bits are serialized, the module transitions to the slz_comp state, marking the transmission as successful and resetting internal signals.
 After this, the state machine returns to idle, ready for the next transmission.
 
-.
-├── piso.v          # Main PISO (Parallel-In Serial-Out) module
-├── piso_tb.v       # Testbench for simulating the PISO module
-├── README.md       # Project description and instructions
 
 
